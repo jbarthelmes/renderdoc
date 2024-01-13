@@ -493,8 +493,8 @@ Usage: %s Test_Name [test_options]
 
   std::string testchoice;
 
-#if 0
-  testchoice = "Hardcoded test name";
+#if 1
+  testchoice = "GL_VAO_DSA";
 #endif
 
   if(!testchoice.empty())
